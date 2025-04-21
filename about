@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Holistic Caremedics Medical Center - Redefining healthcare through modern medicine and holistic treatments.">
+    <title>Holistic Caremedics | Modern Holistic Healthcare</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; background: #f9f9f9; color: #333; }
+        header { background: #006d77; color: white; padding: 20px 10%; text-align: center; }
+        nav { text-align: center; margin-top: 10px; }
+        nav a { margin: 0 15px; color: #006d77; text-decoration: none; font-weight: bold; }
+        .hero { background: url('https://images.unsplash.com/photo-1588776814546-ec29f5e5b2d3') no-repeat center/cover; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-shadow: 1px 1px 5px black; font-size: 2em; }
+        .section { padding: 40px 10%; text-align: center; }
+        .service { margin: 20px 0; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+        footer { background: #006d77; color: white; text-align: center; padding: 20px; }
+        .blog-post { text-align: left; background: white; margin: 20px 0; padding: 20px; border-radius: 8px; box-shadow: 0 0 8px rgba(0,0,0,0.05); }
+        .newsletter { margin-top: 40px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 8px rgba(0,0,0,0.05); }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Holistic Caremedics Medical Center</h1>
+    <p>Redefining Healthcare Through Innovation & Holistic Care</p>
+</header>
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    Your Health, Our Priority.
+</div>
+
+<section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="service">General Consultation</div>
+    <div class="service">IV Vitamin Therapy</div>
+    <div class="service">Laboratory Diagnostics</div>
+    <div class="service">Natural Herbal Infusions</div>
+</section>
+
+<section id="blog" class="section">
+    <h2>Health & Wellness Blog</h2>
+    <div class="blog-post">
+        <h3>The Future of Healthcare: Why Holistic Treatment is Gaining Ground</h3>
+        <p>Holistic healthcare combines natural therapies with modern medicine, offering patients complete wellness from the inside out. Learn why it’s the future!</p>
+    </div>
+    <div class="blog-post">
+        <h3>5 Simple Daily Habits for Long-Lasting Health</h3>
+        <p>Good health starts with small habits: hydration, exercise, restful sleep, mindful eating, and regular checkups. Discover how to build yours today.</p>
+    </div>
+    <div class="blog-post">
+        <h3>IV Therapy: The Secret Weapon for Energy and Immunity</h3>
+        <p>Vitamin drips help replenish nutrients, strengthen your immune system, and restore energy — all through a simple IV infusion. Here’s how it works.</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Subscribe to Our Health Newsletter</h2>
+    <div class="newsletter">
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="email" name="email" placeholder="Enter your email" required style="padding:10px;width:60%;">
+            <button type="submit" style="padding:10px 20px;background:#006d77;color:white;border:none;border-radius:5px;">Subscribe</button>
+        </form>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required style="padding:10px;width:60%;"><br><br>
+        <input type="email" name="email" placeholder="Your Email" required style="padding:10px;width:60%;"><br><br>
+        <textarea name="message" placeholder="Your Message" required style="padding:10px;width:60%;height:100px;"></textarea><br><br>
+        <button type="submit" style="padding:10px 20px;background:#006d77;color:white;border:none;border-radius:5px;">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2025 Holistic Caremedics. All rights reserved.
+</footer>
+
+</body>
+</html>
