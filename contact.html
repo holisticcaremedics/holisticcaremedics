@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Holistic Caremedics Medical Center</title>
+    <title>Contact Us - Holistic Caremedics</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f9f4; color: #333; }
         header { background: #3e8e41; padding: 1em 0; text-align: center; color: white; }
         nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
         .content { padding: 2em; max-width: 900px; margin: auto; }
+        form { background: white; padding: 1em; border-radius: 8px; border: 1px solid #ddd; }
+        label { display: block; margin-top: 10px; }
+        input, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+        button { margin-top: 10px; padding: 10px 20px; background: #3e8e41; border: none; color: white; cursor: pointer; border-radius: 5px; }
         h2 { color: #3e8e41; }
         footer { text-align: center; padding: 1em; background: #3e8e41; color: white; position: fixed; width: 100%; bottom: 0; }
     </style>
@@ -17,7 +21,7 @@
 <body>
 
 <header>
-    <h1>Holistic Caremedics Medical Center</h1>
+    <h1>Contact Holistic Caremedics</h1>
     <nav>
         <a href="index.html">Home</a>
         <a href="products.html">Products</a>
@@ -27,8 +31,18 @@
 </header>
 
 <div class="content">
-    <h2>Welcome to Holistic Caremedics</h2>
-    <p>Redefining healthcare through a holistic approach — blending modern health care and natural remedies for your total well-being.</p>
+    <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Message:</label>
+        <textarea name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
 </div>
 
 <footer>&copy; 2025 Holistic Caremedics Medical Center</footer>
